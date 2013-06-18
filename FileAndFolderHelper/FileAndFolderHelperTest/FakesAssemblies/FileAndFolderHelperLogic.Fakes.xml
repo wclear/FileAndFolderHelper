@@ -1,0 +1,341 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FileAndFolderHelperLogic.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:FileAndFolderHelperLogic.Fakes.ShimCustomFile">
+            <summary>Shim type of FileAndFolderHelperLogic.CustomFile</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.ShimCustomFile.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.ShimCustomFile.#ctor(FileAndFolderHelperLogic.CustomFile)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.ShimCustomFile.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.ShimCustomFile.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimCustomFile.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimCustomFile.Constructor">
+            <summary>Sets the shim of CustomFile.CustomFile()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimCustomFile.ExtensionGet">
+            <summary>Sets the shim of CustomFile.get_Extension()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimCustomFile.ExtensionSetString">
+            <summary>Sets the shim of CustomFile.set_Extension(String value)</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimCustomFile.FileNameGet">
+            <summary>Sets the shim of CustomFile.get_FileName()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimCustomFile.FileNameSetString">
+            <summary>Sets the shim of CustomFile.set_FileName(String value)</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimCustomFile.FullFileNameGet">
+            <summary>Sets the shim of CustomFile.get_FullFileName()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimCustomFile.FullFileNameSetString">
+            <summary>Sets the shim of CustomFile.set_FullFileName(String value)</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimCustomFile.IdGet">
+            <summary>Sets the shim of CustomFile.get_Id()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimCustomFile.IdSetInt32">
+            <summary>Sets the shim of CustomFile.set_Id(Int32 value)</summary>
+        </member>
+        <member name="T:FileAndFolderHelperLogic.Fakes.ShimCustomFile.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimCustomFile.AllInstances.ExtensionGet">
+            <summary>Sets the shim of CustomFile.get_Extension()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimCustomFile.AllInstances.ExtensionSetString">
+            <summary>Sets the shim of CustomFile.set_Extension(String value)</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimCustomFile.AllInstances.FileNameGet">
+            <summary>Sets the shim of CustomFile.get_FileName()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimCustomFile.AllInstances.FileNameSetString">
+            <summary>Sets the shim of CustomFile.set_FileName(String value)</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimCustomFile.AllInstances.FullFileNameGet">
+            <summary>Sets the shim of CustomFile.get_FullFileName()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimCustomFile.AllInstances.FullFileNameSetString">
+            <summary>Sets the shim of CustomFile.set_FullFileName(String value)</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimCustomFile.AllInstances.IdGet">
+            <summary>Sets the shim of CustomFile.get_Id()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimCustomFile.AllInstances.IdSetInt32">
+            <summary>Sets the shim of CustomFile.set_Id(Int32 value)</summary>
+        </member>
+        <member name="T:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult">
+            <summary>Shim type of FileAndFolderHelperLogic.DirectorySearchResult</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.#ctor(FileAndFolderHelperLogic.DirectorySearchResult)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.Constructor">
+            <summary>Sets the shim of DirectorySearchResult.DirectorySearchResult()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.ConstructorStringStringArray">
+            <summary>Sets the shim of DirectorySearchResult.DirectorySearchResult(String directory, String[] searchResult)</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.DirectoryGet">
+            <summary>Sets the shim of DirectorySearchResult.get_Directory()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.DirectorySetString">
+            <summary>Sets the shim of DirectorySearchResult.set_Directory(String value)</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.SearchResultGet">
+            <summary>Sets the shim of DirectorySearchResult.get_SearchResult()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.SearchResultSetStringArray">
+            <summary>Sets the shim of DirectorySearchResult.set_SearchResult(String[] value)</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.SearchTimeGet">
+            <summary>Sets the shim of DirectorySearchResult.get_SearchTime()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.SearchTimeSetDateTime">
+            <summary>Sets the shim of DirectorySearchResult.set_SearchTime(DateTime value)</summary>
+        </member>
+        <member name="T:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.AllInstances.DirectoryGet">
+            <summary>Sets the shim of DirectorySearchResult.get_Directory()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.AllInstances.DirectorySetString">
+            <summary>Sets the shim of DirectorySearchResult.set_Directory(String value)</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.AllInstances.SearchResultGet">
+            <summary>Sets the shim of DirectorySearchResult.get_SearchResult()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.AllInstances.SearchResultSetStringArray">
+            <summary>Sets the shim of DirectorySearchResult.set_SearchResult(String[] value)</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.AllInstances.SearchTimeGet">
+            <summary>Sets the shim of DirectorySearchResult.get_SearchTime()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimDirectorySearchResult.AllInstances.SearchTimeSetDateTime">
+            <summary>Sets the shim of DirectorySearchResult.set_SearchTime(DateTime value)</summary>
+        </member>
+        <member name="T:FileAndFolderHelperLogic.Fakes.ShimDirectorySearcher">
+            <summary>Shim type of FileAndFolderHelperLogic.DirectorySearcher</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.ShimDirectorySearcher.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.ShimDirectorySearcher.#ctor(FileAndFolderHelperLogic.DirectorySearcher)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.ShimDirectorySearcher.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.ShimDirectorySearcher.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimDirectorySearcher.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimDirectorySearcher.Constructor">
+            <summary>Sets the shim of DirectorySearcher.DirectorySearcher()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimDirectorySearcher.GetAllFilesInString">
+            <summary>Sets the shim of DirectorySearcher.GetAllFilesIn(String directory)</summary>
+        </member>
+        <member name="T:FileAndFolderHelperLogic.Fakes.ShimDirectorySearcher.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimDirectorySearcher.AllInstances.GetAllFilesInString">
+            <summary>Sets the shim of DirectorySearcher.GetAllFilesIn(String directory)</summary>
+        </member>
+        <member name="T:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext">
+            <summary>Shim type of FileAndFolderHelperLogic.FileAndFolderDbContext</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.#ctor(FileAndFolderHelperLogic.FileAndFolderDbContext)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.Bind(FileAndFolderHelperLogic.DbContext)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.AddCustomFile">
+            <summary>Sets the shim of FileAndFolderDbContext.Add(CustomFile file)</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.Constructor">
+            <summary>Sets the shim of FileAndFolderDbContext.FileAndFolderDbContext()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.DeleteCustomFile">
+            <summary>Sets the shim of FileAndFolderDbContext.Delete(CustomFile file)</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.FilesGet">
+            <summary>Sets the shim of FileAndFolderDbContext.get_Files()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.FilesSetListOfCustomFile">
+            <summary>Sets the shim of FileAndFolderDbContext.set_Files(List`1&lt;CustomFile&gt; value)</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.FindInt32">
+            <summary>Sets the shim of FileAndFolderDbContext.Find(Int32 id)</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.UpdateCustomFile">
+            <summary>Sets the shim of FileAndFolderDbContext.Update(CustomFile file)</summary>
+        </member>
+        <member name="T:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.AllInstances.AddCustomFile">
+            <summary>Sets the shim of FileAndFolderDbContext.Add(CustomFile file)</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.AllInstances.DeleteCustomFile">
+            <summary>Sets the shim of FileAndFolderDbContext.Delete(CustomFile file)</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.AllInstances.FilesGet">
+            <summary>Sets the shim of FileAndFolderDbContext.get_Files()</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.AllInstances.FilesSetListOfCustomFile">
+            <summary>Sets the shim of FileAndFolderDbContext.set_Files(List`1&lt;CustomFile&gt; value)</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.AllInstances.FindInt32">
+            <summary>Sets the shim of FileAndFolderDbContext.Find(Int32 id)</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.ShimFileAndFolderDbContext.AllInstances.UpdateCustomFile">
+            <summary>Sets the shim of FileAndFolderDbContext.Update(CustomFile file)</summary>
+        </member>
+        <member name="T:FileAndFolderHelperLogic.Fakes.StubCustomFile">
+            <summary>Stub type of FileAndFolderHelperLogic.CustomFile</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.StubCustomFile.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.StubCustomFile.InitializeStub">
+            <summary>Initializes a new instance of type StubCustomFile</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.StubCustomFile.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.StubCustomFile.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.StubCustomFile.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FileAndFolderHelperLogic.Fakes.StubDbContext">
+            <summary>Stub type of FileAndFolderHelperLogic.DbContext</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.StubDbContext.#ctor">
+            <summary>Initializes a new instance of type StubDbContext</summary>
+        </member>
+        <member name="F:FileAndFolderHelperLogic.Fakes.StubDbContext.AddCustomFile">
+            <summary>Sets the stub of DbContext.Add(CustomFile file)</summary>
+        </member>
+        <member name="F:FileAndFolderHelperLogic.Fakes.StubDbContext.DeleteCustomFile">
+            <summary>Sets the stub of DbContext.Delete(CustomFile file)</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.StubDbContext.fafhl::FileAndFolderHelperLogic#DbContext#Add(FileAndFolderHelperLogic.CustomFile)">
+            <summary>Sets the stub of DbContext.Add(CustomFile file)</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.StubDbContext.fafhl::FileAndFolderHelperLogic#DbContext#Delete(FileAndFolderHelperLogic.CustomFile)">
+            <summary>Sets the stub of DbContext.Delete(CustomFile file)</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.StubDbContext.fafhl::FileAndFolderHelperLogic#DbContext#Find(System.Int32)">
+            <summary>Sets the stub of DbContext.Find(Int32 id)</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.StubDbContext.fafhl::FileAndFolderHelperLogic#DbContext#Update(FileAndFolderHelperLogic.CustomFile)">
+            <summary>Sets the stub of DbContext.Update(CustomFile file)</summary>
+        </member>
+        <member name="F:FileAndFolderHelperLogic.Fakes.StubDbContext.FindInt32">
+            <summary>Sets the stub of DbContext.Find(Int32 id)</summary>
+        </member>
+        <member name="F:FileAndFolderHelperLogic.Fakes.StubDbContext.UpdateCustomFile">
+            <summary>Sets the stub of DbContext.Update(CustomFile file)</summary>
+        </member>
+        <member name="T:FileAndFolderHelperLogic.Fakes.StubDirectorySearchResult">
+            <summary>Stub type of FileAndFolderHelperLogic.DirectorySearchResult</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.StubDirectorySearchResult.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.StubDirectorySearchResult.#ctor(System.String,System.String[])">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.StubDirectorySearchResult.InitializeStub">
+            <summary>Initializes a new instance of type StubDirectorySearchResult</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.StubDirectorySearchResult.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.StubDirectorySearchResult.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.StubDirectorySearchResult.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FileAndFolderHelperLogic.Fakes.StubDirectorySearcher">
+            <summary>Stub type of FileAndFolderHelperLogic.DirectorySearcher</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.StubDirectorySearcher.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.StubDirectorySearcher.InitializeStub">
+            <summary>Initializes a new instance of type StubDirectorySearcher</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.StubDirectorySearcher.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.StubDirectorySearcher.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.StubDirectorySearcher.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FileAndFolderHelperLogic.Fakes.StubFileAndFolderDbContext">
+            <summary>Stub type of FileAndFolderHelperLogic.FileAndFolderDbContext</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.StubFileAndFolderDbContext.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FileAndFolderHelperLogic.Fakes.StubFileAndFolderDbContext.InitializeStub">
+            <summary>Initializes a new instance of type StubFileAndFolderDbContext</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.StubFileAndFolderDbContext.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.StubFileAndFolderDbContext.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FileAndFolderHelperLogic.Fakes.StubFileAndFolderDbContext.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

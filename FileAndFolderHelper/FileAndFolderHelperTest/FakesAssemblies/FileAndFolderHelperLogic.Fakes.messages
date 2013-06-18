@@ -1,0 +1,2 @@
+C:\Users\willi_000\Documents\GitHub\FileAndFolderHelper\FileAndFolderHelper\FileAndFolderHelperTest\Fakes\FileAndFolderHelperLogic.fakes : warning : Cannot generate shim for FileAndFolderHelperLogic.DbContext: type is an interface.
+C:\Users\willi_000\Documents\GitHub\FileAndFolderHelper\FileAndFolderHelper\FileAndFolderHelperTest\Fakes\FileAndFolderHelperLogic.fakes : warning : Cannot generate shim for FileAndFolderHelperLogic.FileAndFolderDbContext+<>c__DisplayClass1: type is not supported because of internal limitations.

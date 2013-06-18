@@ -1,0 +1,10 @@
+﻿<Window x:Class="FileAndFolderHelper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Find files in directories and sub directories">
+    <Grid>
+        <Button x:Name="setSearchDirectoryButton" Content="Search Directory" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="135" Click="setSearchDirectoryButton_Click"/>
+        <DataGrid x:Name="filesDataGrid" Margin="10,35,10,10" SelectionChanged="filesDataGrid_SelectionChanged" MouseDoubleClick="filesDataGrid_MouseDoubleClick"/>
+        <Label Content="Double click a result to see possible duplicates (if any were found)" HorizontalAlignment="Left" Margin="150,9,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
